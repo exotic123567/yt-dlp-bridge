@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Google\Chrome\NativeMessagingHosts\com.rnb.ytdlpbridge]
+@="C:\\PATH\\TO\\YTBridge\\com.rnb.ytdlpbridge.json"
+
+[HKEY_CURRENT_USER\Software\BraveSoftware\Brave-Browser\NativeMessagingHosts\com.rnb.ytdlpbridge]
+@="C:\\PATH\\TO\\YTBridge\\com.rnb.ytdlpbridge.json"

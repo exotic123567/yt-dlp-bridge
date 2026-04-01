@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YT-DLP Bridge</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>YT-DLP Bridge</h1>
+
+    <label for="url">Video URL</label>
+    <input id="url" type="text" placeholder="Paste YouTube URL here" />
+
+    <button id="useCurrentTab" class="secondary">Use Current Tab URL</button>
+
+    <label for="mode">Download Type</label>
+    <select id="mode">
+      <option value="video">Video (MP4)</option>
+      <option value="audio">Audio (MP3)</option>
+    </select>
+
+    <label for="quality">Quality</label>
+    <select id="quality">
+      <option value="best">Best</option>
+      <option value="720">720p</option>
+      <option value="1080">1080p</option>
+      <option value="128">128 kbps</option>
+      <option value="192">192 kbps</option>
+      <option value="320">320 kbps</option>
+    </select>
+
+    <label for="folder">Output Folder</label>
+    <select id="folder">
+      <option value="YT">Videos</option>
+      <option value="Music">Music</option>
+    </select>
+
+    <label for="filenameTemplate">Filename Template</label>
+    <select id="filenameTemplate">
+      <option value="title">Title only</option>
+      <option value="title_id">Title + ID</option>
+      <option value="uploader_title">Uploader + Title</option>
+    </select>
+
+    <div class="checkbox-group">
+      <label><input type="checkbox" id="embedMetadata" checked /> Embed metadata</label>
+      <label><input type="checkbox" id="writeThumbnail" /> Save thumbnail</label>
+      <label><input type="checkbox" id="writeSubtitles" /> Save subtitles</label>
+    </div>
+
+    <button id="downloadBtn" class="primary">Download</button>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

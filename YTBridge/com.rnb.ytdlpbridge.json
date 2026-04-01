@@ -1,0 +1,9 @@
+{
+  "name": "com.rnb.ytdlpbridge",
+  "description": "Native messaging bridge for local yt-dlp downloads",
+  "path": "C:\\PATH\\TO\\YTBridge\\native_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://PASTE_EXTENSION_ID_HERE/"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YT-DLP Bridge",
+  "version": "1.0.0",
+  "description": "Send YouTube download jobs from Brave to local yt-dlp on Windows.",
+  "permissions": [
+    "nativeMessaging",
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://youtu.be/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

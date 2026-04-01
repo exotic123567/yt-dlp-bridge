@@ -1,0 +1,8 @@
+{
+  "yt_dlp_path": "C:\\yt-dlp\\yt-dlp.exe",
+  "ffmpeg_path": "C:\\ffmpeg\\bin\\ffmpeg.exe",
+  "output_dirs": {
+    "YT": "C:\\Users\\YOUR_USERNAME\\Downloads\\YT",
+    "Music": "C:\\Users\\YOUR_USERNAME\\Downloads\\Music"
+  }
+}
